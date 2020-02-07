@@ -11,5 +11,11 @@
 
 #### While developing you can get page error codes instead of the blank pages by adding the app.UseStatusCodePages() method inside the Startup.cs Confiure() method.
 
-
+### EntityFrameworkCore
+#### To install:
+'dotnet tool install --global dotnet-ef'
+#### To scaffold:
+'Scaffold-DbContext [-Connection] [-Provider] [-OutputDir] [-Context] [-Schemas>] [-Tables>] [-DataAnnotations] [-Force] [-Project] [-StartupProject] [<CommonParameters>]'
+Example:
+ 'PM> Scaffold-DbContext "Server=.\SQLExpress;Database=SchoolDB;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -Tables Products -OutputDir Model'
 
