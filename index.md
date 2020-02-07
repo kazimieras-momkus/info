@@ -9,7 +9,7 @@
 4. Choose specific files: select "dist" catalog from Files.
 5. Install
 
-#### While developing you can get more page error codes instead of blank pages by adding app.UseStatusCodePages(); in the Startup.cs Confiure method.
+#### While developing you can get page error codes instead of the blank pages by adding the app.UseStatusCodePages() method inside the Startup.cs Confiure() method.
 
 
 
