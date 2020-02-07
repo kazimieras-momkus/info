@@ -13,7 +13,7 @@
 
 ### EntityFrameworkCore
 #### To install:
-'dotnet tool install --global dotnet-ef'
+`dotnet tool install --global dotnet-ef`
 #### To scaffold:
 `Scaffold-DbContext [-Connection] [-Provider] [-OutputDir] [-Context] [-Schemas>] [-Tables>] [-DataAnnotations] [-Force] [-Project] [-StartupProject] [<CommonParameters>]`
 Example:
