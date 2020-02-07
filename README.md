@@ -1,3 +1,3 @@
-# my-repo
+# Some useful info
 
-just testing, ignore, please.
+## will be shown soon
