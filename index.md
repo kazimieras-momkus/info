@@ -9,5 +9,7 @@
 4. Choose specific files: select "dist" catalog from Files.
 5. Install
 
-### 
+#### While developing you can add more informative page errors by adding app.UseStatusCodePages(); in the Startup.cs Confiure method.
+
+
 
